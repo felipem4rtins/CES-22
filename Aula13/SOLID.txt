@@ -1,0 +1,10 @@
+No projeto do site Watching, aplicou-se os princípios Single Responsability e Open/Closed design.
+
+Um exemplo do uso do Single Responsability é nas mensagens e nos butões, que pertencem a classes diferentes e, por isso,
+possuem cores diferentes. As funções dessas classes unicamente as separam em grupos distintos esteticamente.
+
+Um exemplo da utilização do Open/Closed design é que, no código inteiro, só se consegue usar as classes nos padrões
+estipulados por elas.
+
+Poderia-se aplicar o Liskov Substitution com a criação de uma classe botão e de suas subclasses danger e sucess. Na
+subclasse danger, a cor do botão seria vermelha e, na subclasse sucess, a cor seria verde.
